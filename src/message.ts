@@ -318,9 +318,9 @@ export class Message implements Sayable {
   /**
    * @private
    */
-  public readyStream(): Promise<Readable> {
-    throw Error('abstract method')
-  }
+  // public readyStream(): Promise<Readable> {
+  //   throw Error('abstract method')
+  // }
 
   /**
    * @private
